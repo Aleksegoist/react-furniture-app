@@ -1,7 +1,9 @@
+import Hero from "./components/Hero";
+
 function App() {
   return (
-    <div className=''>
-      <h1>Привіт світ!!!</h1>
+    <div className='w-full max-w-[1440px] mx-auto bg-white'>
+      <Hero />
     </div>
   );
 }
