@@ -14,7 +14,7 @@ const Stats = () => {
               <div className='text-2xl font-semibold lg:text-4xl'>
                 {item.value}
               </div>
-              <div className='text-base font-light max-w-[100px] mx-auto lg:text-xl'>
+              <div className='mt-2 text-base font-light max-w-[100px] mx-auto lg:text-xl'>
                 {item.text}
               </div>
             </div>
