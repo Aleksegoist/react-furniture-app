@@ -30,7 +30,7 @@ import TestimonialImg from './assets/img/testimonial.png';
 import Avatar1Img from './assets/img/avatar-1.png';
 import Avatar2Img from './assets/img/avatar-2.png';
 import Avatar3Img from './assets/img/avatar-3.png';
-import Avatar4Img from './assets/img/avatar-4.png';
+// import Avatar4Img from './assets/img/avatar-4.png';
 
 export const navigation = [
     {
@@ -117,26 +117,26 @@ export const features = {
     },
 };
 
-export const newInStore = {
-    title: 'New In Store Now',
-    subtitle: 'Get the latest items immediately with promo prices',
-    link: 'Check all',
+export const materialFurniture = {
+    title: 'Матеріали виробництва',
+    subtitle: 'Ми працюємо з більшістю матеріалів, які є на ринку ',
+    link: 'Дивитись всі',
     icon: <IoIosArrowRoundForward />,
     products: [
         {
-            name: 'chair',
+            name: 'МДФ',
             image: <ChairImg />,
         },
         {
-            name: 'bed',
+            name: 'ДСП',
             image: <BedImg />,
         },
         {
-            name: 'cupboard',
+            name: 'Шпон',
             image: <CupboardImg />,
         },
         {
-            name: 'lighting',
+            name: 'Акрил',
             image: <LightingImg />,
         },
     ],

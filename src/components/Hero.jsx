@@ -6,7 +6,7 @@ const Hero = () => {
   // destructure hero
   const { title, subtitle, buttonText } = hero;
   return (
-    <section className='h-[850px] w-full bg-hero bg-right bg-cover bg-no-repeat text-white pt-[225px] pb-[254px] relative mb-12  lg:bg-center lg:mb-28'>
+    <section className='h-[850px] w-full  bg-hero bg-cover bg-no-repeat text-white pt-[225px] pb-[254px] relative mb-12  lg:bg-center lg:mb-28'>
       <div className='container mx-auto text-center '>
         {/* Title */}
         <h1 className='text-2xl text-white mx-auto font-semibold mb-[30px] lg:text-[64px] lg:leading-tight lg:max-w-[900px]'>
