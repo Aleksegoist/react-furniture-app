@@ -81,20 +81,32 @@ export const features = {
     image: <Features1Img />,
     title: 'Ми створимо дуже приємну атмосферу у Вашій оселі',
     subtitle:
-        'Furniture power is a software as services for multipurpose business management system',
+        'Ми пропонуємо:',
     buttonText: 'Замовити',
     items: [
         {
             icon: <IoIosCheckmarkCircle />,
-            title: 'Valuation Services',
+            title: 'Професійний замір приміщення',
             subtitle:
-                'Sometimes features require a short description.  This can be detailed description',
+                'Перед замовленням меблів, наш майстер професійно зробить заміри приміщення та місце, де будуть встановлені меблі.',
         },
         {
             icon: <IoIosCheckmarkCircle />,
-            title: 'Development of Furniture Models',
+            title: 'Вибір матеріалів',
             subtitle:
-                'Sometimes features require a short description.  This can be detailed description',
+                'Ми допоможемо підібрати матеріали та проконсультувати по якості та вартості.',
+        },
+        {
+            icon: <IoIosCheckmarkCircle />,
+            title: 'Індивідуальний проект',
+            subtitle:
+                'Розробка індивідуального проекту, з урахуванням всіх побажань замовника.',
+        },
+        {
+            icon: <IoIosCheckmarkCircle />,
+            title: 'Виготовлення та встановлення',
+            subtitle:
+                'Виготовлення в найкоротші строки та професійна сборка та монтаж.',
         },
     ],
     feature2: {

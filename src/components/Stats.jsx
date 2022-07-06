@@ -3,8 +3,8 @@ import { stats } from '../data';
 
 const Stats = () => {
   return (
-    <div className='bg-accent rounded-[20px] p-12'>
-      <div className='flex flex-wrap gap-y-8'>
+    <div className='bg-accent rounded-[20px] p-8'>
+      <div className='flex flex-wrap gap-y-2 '>
         {stats.map((item, index) => {
           return (
             <div
