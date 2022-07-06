@@ -12,9 +12,9 @@ const FeaturesSecond = () => {
             <img className='rounded-[20px]' src={image.type} alt='/' />
           </div>
           {/* text */}
-          <div className='flex-1 flex flex-col justify-end'>
+          <div className='flex-1 flex flex-col justify-center'>
             <h2 className='title'>{title}</h2>
-            <p className='subtitle font-semibold'>{subtitle}</p>
+            <p className='subtitle '>{subtitle}</p>
           </div>
         </div>
       </div>

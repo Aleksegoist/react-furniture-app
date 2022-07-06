@@ -111,9 +111,9 @@ export const features = {
     ],
     feature2: {
         image: <Features2Img />,
-        title: 'The Best Furniture Manufacturer of your choice',
+        title: 'Професійна фурнітура',
         subtitle:
-            'Furnitre power is a software as services for multiperpose business management system, expecially for them who are running two or more business exploree the future Furnitre power is a software as services.',
+            'Ми використовуємо якісну меблеву фурнітуру відомих брендів, тому що це запорука тривалої експлуатації виробів, а також неперевершений зовнішній вигляд меблів.',
     },
 };
 
