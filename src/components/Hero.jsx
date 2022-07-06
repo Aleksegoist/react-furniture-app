@@ -1,7 +1,6 @@
 import React from 'react';
-
-// import data
 import { hero } from '../data';
+import Stats from './Stats';
 
 const Hero = () => {
   // destructure hero
@@ -21,7 +20,9 @@ const Hero = () => {
           {buttonText}
         </button>
         {/* stats */}
-        <div>stats</div>
+        <div>
+          <Stats />
+        </div>
       </div>
     </section>
   );
