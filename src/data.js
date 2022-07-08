@@ -13,6 +13,8 @@ import {
 import Features1Img from './assets/img/features-1.png';
 import Features2Img from './assets/img/features-2.png';
 import ChairImg from './assets/img/chair.png';
+import MdfFarba from './assets/img/';
+
 import BedImg from './assets/img/bed.png';
 import CupboardImg from './assets/img/cupboard.png';
 import LightingImg from './assets/img/lighting.png';
@@ -125,6 +127,10 @@ export const materialFurniture = {
     products: [
         {
             name: 'МДФ плівковий',
+            image: <ChairImg />,
+        },
+        {
+            name: 'МДФ фарба',
             image: <ChairImg />,
         },
         {
