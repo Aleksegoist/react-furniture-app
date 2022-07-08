@@ -124,7 +124,7 @@ export const materialFurniture = {
     icon: <IoIosArrowRoundForward />,
     products: [
         {
-            name: 'МДФ',
+            name: 'МДФ плівковий',
             image: <ChairImg />,
         },
         {
