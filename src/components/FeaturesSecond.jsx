@@ -7,14 +7,14 @@ const FeaturesSecond = () => {
     <section className='section'>
       <div className='container mx-auto'>
         <div className='flex flex-col lg:flex-row lg:gap-x-[100px]'>
-          {/* image */}
-          <div className='flex-1 order-1 lg:-order-1'>
-            <img className='rounded-[20px]' src={image.type} alt='/' />
-          </div>
           {/* text */}
           <div className='flex-1 flex flex-col justify-center'>
             <h2 className='title'>{title}</h2>
             <p className='subtitle '>{subtitle}</p>
+          </div>
+          {/* image */}
+          <div className='flex-1'>
+            <img className='rounded-[20px]' src={image.type} alt='/' />
           </div>
         </div>
       </div>

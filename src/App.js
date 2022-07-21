@@ -2,6 +2,7 @@ import Features from "./components/Features";
 import FeaturesSecond from "./components/FeaturesSecond";
 import Hero from "./components/Hero";
 import NewItems from "./components/NewItems";
+import Products from "./components/Products";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Features />
       <NewItems />
       <FeaturesSecond />
+      <Products />
     </div>
   );
 }
