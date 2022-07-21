@@ -15,7 +15,18 @@ const ProductsSlider = () => {
       {pages.map((page, index) => {
         return (
           <SwiperSlide key={index}>
-            <div>slide</div>
+            <div>
+              {page.productList.map((product, index) => {
+                const { image, name, price } = product;
+                return (
+                  <div>
+                    <div>
+                      <img src={image.type} alt='' />
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
           </SwiperSlide>
         );
       })}
