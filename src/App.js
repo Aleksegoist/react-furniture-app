@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import NewItems from "./components/NewItems";
 import Products from "./components/Products";
 
+
 function App() {
   return (
     <div className='w-full max-w-[1440px] mx-auto bg-white '>
@@ -12,6 +13,7 @@ function App() {
       <NewItems />
       <FeaturesSecond />
       <Products />
+
     </div>
   );
 }

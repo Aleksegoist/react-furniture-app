@@ -148,9 +148,9 @@ export const materialFurniture = {
 };
 
 export const products = {
-  title: 'All Products',
+  title: 'Останні виконані замовлення',
   subtitle:
-    'The products we provide only for you as our service are selected from the best products with number 1 quality in the world',
+    'Ми завжди прислуховуємось до побажань наших клієнтів та стараємось враховувати всі дрібні нюанси.',
   pages: [
     {
       productList: [
