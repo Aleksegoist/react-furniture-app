@@ -331,10 +331,10 @@ export const testimonial = {
 };
 
 export const newsletter = {
-  title: 'Get more discount Off your order',
-  subtitle: 'Join our mailing list',
-  placeholder: 'Your email address',
-  buttonText: 'Shop Now',
+  title: 'Отримайте знижку при замовленні меблів',
+  subtitle: 'Додайтесь до нашої почтової розсилки',
+  placeholder: 'Ваша поштова адреса',
+  buttonText: 'Отримати зараз',
 };
 
 export const footer = {

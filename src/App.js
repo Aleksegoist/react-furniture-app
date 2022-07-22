@@ -1,5 +1,6 @@
 import Features from "./components/Features";
 import FeaturesSecond from "./components/FeaturesSecond";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import NewItems from "./components/NewItems";
 import Newsletter from "./components/Newsletter";
@@ -17,6 +18,7 @@ function App() {
       <Products />
       <Testimonial />
       <Newsletter />
+      <Footer />
     </div>
   );
 }
