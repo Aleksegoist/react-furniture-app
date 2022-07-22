@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Logo from '../assets/img/logo.svg';
 import { CgMenuRight, CgClose } from 'react-icons/cg';
 import { navigation } from '../data';
@@ -7,6 +7,12 @@ import NavMobile from './NavMobile';
 const Header = () => {
   const [bg, setBg] = useState(false);
   const [mobileNav, setMobileNav] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener('scroll', () => {
+      return window.scrollY > 50 ? setBg(true) : setBg(false);
+    });
+  }, []);
   return (
     <header
       className={`${
@@ -20,7 +26,10 @@ const Header = () => {
             <img className='h-6 lg:h-8' src={Logo} alt='logo' />
           </a>
           {/* menu icon */}
-          <div className='text-2xl text-white md:hidden lg:text-3xl cursor-pointer'>
+          <div
+            onClick={() => setMobileNav(!mobileNav)}
+            className='text-2xl text-white md:hidden lg:text-3xl cursor-pointer'
+          >
             {mobileNav ? <CgClose /> : <CgMenuRight />}
           </div>
           {/* nav */}
@@ -41,7 +50,11 @@ const Header = () => {
             </ul>
           </nav>
           {/* nav mobile */}
-          <div>
+          <div
+            className={`${
+              mobileNav ? 'left-0' : '-left-full'
+            } md:hidden fixed bottom-0 w-full max-w-xs h-screen transition-all`}
+          >
             <NavMobile />
           </div>
         </div>
