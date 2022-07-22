@@ -11,17 +11,32 @@ import { HiPlus } from 'react-icons/hi';
 const ProductsSlider = () => {
   const { pages } = products;
   return (
-    <Swiper>
+    <Swiper
+      modules={[Pagination, Navigation]}
+      pagination={{ clickable: true }}
+      navigation={true}
+      className='productSlider min-h-[1300px]'
+    >
       {pages.map((page, index) => {
         return (
           <SwiperSlide key={index}>
-            <div>
+            <div className='grid grid-cols-2 gap-x-5 md:grid-cols-3 lg:grid-cols-4 lg:gap-[30px]'>
               {page.productList.map((product, index) => {
                 const { image, name, price } = product;
                 return (
-                  <div>
+                  <div
+                    key={index}
+                    className='w-full max-w-[290px] h-[380px] text-left'
+                  >
+                    <div className='border hover:border-accent rounded-[20px] w-full max-w-[285px] h-full max-h-[292px] flex items-center justify-center mb-[15px] relative transition'>
+                      <img src={image.type} alt='/' />
+                      <div className='absolute bottom-4 right-[22px] bg-gray-200 w-8 h-8 rounded-full flex justify-center items-center cursor-pointer hover:bg-gray-300 transition'>
+                        <HiPlus className='text-xl text-primary' />
+                      </div>
+                    </div>
+                    <div>{name}</div>
                     <div>
-                      <img src={image.type} alt='' />
+                      <div>$ {price}</div>
                     </div>
                   </div>
                 );
