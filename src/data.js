@@ -28,7 +28,7 @@ import Product7Img from './assets/img/products/product-7.png';
 import Product8Img from './assets/img/products/product-8.png';
 import Product9Img from './assets/img/products/product-9.png';
 import Product10Img from './assets/img/products/product-10.png';
-import TestimonialImg from './assets/img/testimonial.png';
+import TestimonialImg from './assets/img/testimonial.jpeg';
 import Avatar1Img from './assets/img/avatar-1.png';
 import Avatar2Img from './assets/img/avatar-2.png';
 import Avatar3Img from './assets/img/avatar-3.png';
@@ -308,17 +308,17 @@ export const testimonial = {
   persons: [
     {
       avatar: <Avatar1Img />,
-      name: 'Josh Smith',
-      occupation: 'Manager of The New York Times',
+      name: 'Олег',
+      occupation: 'ІТ фахівець',
       message:
-        '“They are have a perfect touch for make something so professional ,interest and useful for a lot of people .”',
+        '“Дякую компании за кухню моєї мрії. Я щаслива, що замовила кухню саме у Вас. Все точно так, як хтіла.”',
     },
     {
       avatar: <Avatar2Img />,
-      name: 'Brandi Johns',
-      occupation: 'Manager of The New York Times',
+      name: 'Іванна',
+      occupation: 'Журналіст',
       message:
-        '“They are have a perfect touch for make something so professional ,interest and useful for a lot of people .”',
+        '“Дякую компании за кухню моєї мрії. Я щаслива, що замовила кухню саме у Вас. Все точно так, як хтіла. Якістю дуже задоволена. Зробили без затримань та встановили швидко. Рекомендую цю компанію та буду звертатись ще! .”',
     },
     {
       avatar: <Avatar3Img />,

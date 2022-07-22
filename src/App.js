@@ -3,6 +3,7 @@ import FeaturesSecond from "./components/FeaturesSecond";
 import Hero from "./components/Hero";
 import NewItems from "./components/NewItems";
 import Products from "./components/Products";
+import Testimonial from "./components/Testimonial";
 
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
       <NewItems />
       <FeaturesSecond />
       <Products />
-
+      <Testimonial />
     </div>
   );
 }
