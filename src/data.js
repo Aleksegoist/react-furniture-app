@@ -311,7 +311,7 @@ export const testimonial = {
       name: 'Олег',
       occupation: 'ІТ фахівець',
       message:
-        '“Дякую компании за кухню моєї мрії. Я щаслива, що замовила кухню саме у Вас. Все точно так, як хтіла.”',
+        '“Ми з дружиною раді, що вибрали Вас, як виробника меблів на замовлення. Виконали наше замовлення точно до деталей. Меблі відмінної якості.”',
     },
     {
       avatar: <Avatar2Img />,
@@ -322,10 +322,10 @@ export const testimonial = {
     },
     {
       avatar: <Avatar3Img />,
-      name: 'Paula Pfeffer',
-      occupation: 'Manager of The New York Times',
+      name: 'Катерина',
+      occupation: 'Лікар',
       message:
-        '“They are have a perfect touch for make something so professional ,interest and useful for a lot of people .”',
+        '“Дякую компанії за виконання мого бажання. Гардеробна моєї мрії була зроблена якісно і в строки. Замовляла за рекомендацією друзів і Вам раджу!”',
     },
   ],
 };
