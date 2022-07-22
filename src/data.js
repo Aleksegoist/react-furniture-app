@@ -1,8 +1,9 @@
 // import icons
 import {
-  IoLogoYoutube,
+  IoLogoReddit,
+  IoLogoTwitter,
   IoLogoFacebook,
-  IoLogoGithub,
+
   IoLogoInstagram,
   IoMdAddCircle,
   IoIosCheckmarkCircle,
@@ -340,7 +341,7 @@ export const newsletter = {
 export const footer = {
   social: [
     {
-      icon: <IoLogoYoutube />,
+      icon: <IoLogoTwitter />,
       href: '#',
     },
     {
@@ -348,7 +349,7 @@ export const footer = {
       href: '#',
     },
     {
-      icon: <IoLogoGithub />,
+      icon: <IoLogoReddit />,
       href: '#',
     },
     {
